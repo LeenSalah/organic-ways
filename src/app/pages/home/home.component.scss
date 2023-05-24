@@ -1,0 +1,25 @@
+.container-fluid{
+    background-color: var(--primary-color);
+    height: 92vh;
+    position: relative;
+    background-image:url("../../../assets/cover-photo.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+    padding: 40px;
+    .product{
+        color: #27374D;
+    }
+    .offer{
+        color: #526D82;
+    }
+    .shop-now-button{
+        background-color: var(--secondary-color);
+        cursor: pointer;
+        width: 100px;
+    }
+}
